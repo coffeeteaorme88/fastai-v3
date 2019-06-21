@@ -9,7 +9,9 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+#use this link to generate URL
+#https://www.wonderplugin.com/online-tools/google-drive-direct-link-generator/
+export_file_url = 'https://drive.google.com/uc?export=download&id=12_K6JR4f3_RnKqJZLnAXmSTXAJwaf0Q6'
 export_file_name = 'export.pkl'
 
 classes = ['black', 'grizzly', 'teddys']
