@@ -11,10 +11,11 @@ from starlette.staticfiles import StaticFiles
 
 #use this link to generate URL
 #https://www.wonderplugin.com/online-tools/google-drive-direct-link-generator/
-export_file_url = 'https://drive.google.com/uc?export=download&id=12_K6JR4f3_RnKqJZLnAXmSTXAJwaf0Q6'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1gT4byxTnKgPCL_9AMN9I3Kj_dgdrxyj6'
+export_file_name = 'model.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Abyssinian', 'Bengal', 'Birman', 'Bombay', 'British_Shorthair', 'Egyptian_Mau', 'Maine_Coon', 'Persian', 'Ragdoll', 'Russian_Blue', 'Siamese', 'Sphynx', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'boxer', 'chihuahua', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'miniature_pinscher', 'newfoundland', 'pomeranian', 'pug', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+#classes = ['black', 'grizzly', 'teddys']
 path = Path(__file__).parent
 
 app = Starlette()
